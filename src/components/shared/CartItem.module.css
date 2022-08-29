@@ -1,0 +1,98 @@
+.container{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin: 15px 20px;
+    overflow: hidden;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.container img{
+    margin: 0px auto;
+    display: block;
+    width: 110px;
+}
+
+.title{
+    color: var(--primary-color);
+    text-align: center;
+    font-weight: bold;
+    margin: 15px 0px;
+    font-size: 20px;
+}
+
+.price{
+    text-align: center;
+    font-weight: bold;
+    color: #34a853;
+    font-size: 17px;
+}
+
+.quantity{
+    background-color: orange;
+    border-radius: 5px;
+    width: fit-content;
+    font-weight: bold;
+    margin: 30px auto;
+    padding: 0px 6px;
+    font-size: 18px;
+    color: #fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.btnsContainer{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.btnsContainer button{
+    background-color: var(--primary-color);
+    margin: 0px 3px;
+    padding: 5px 8px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    transition: 0.2s all;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: 0.2s all;
+    -moz-transition: 0.2s all;
+    -ms-transition: 0.2s all;
+    -o-transition: 0.2s all;
+}
+
+.btnsContainer button i{
+    font-size: 16px;
+    color: #fff;
+}
+
+@media only screen and (min-width:550px){
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .container > div{
+        flex-grow: 1;
+    }
+
+    .btnsContainer{
+        margin-bottom: 0px;
+    }
+}
+
+
+@media only screen and (min-width:768px){
+    .container{
+        margin: 15px 0 10px 15px;
+    }
+}

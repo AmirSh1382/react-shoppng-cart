@@ -1,0 +1,70 @@
+.container{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 15px 20px;
+    overflow: hidden;
+    max-width: 350px;
+    width: 95%;
+    transition: 0.3s;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.container:hover{
+    box-shadow: 0 0rem 1rem 0.6rem rgba(0,0,0,.15)
+}
+
+.image{
+    margin: 0px auto;
+    display: block;
+    height: 210px;
+    width: 230px;
+}
+
+.title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btnsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btnsContainer a{
+    text-decoration: none;
+}
+
+.btnsContainer button{
+    background-color: var(--primary-color);
+    padding: 5px 8px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    transition: 0.2s all;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: 0.2s all;
+    -moz-transition: 0.2s all;
+    -ms-transition: 0.2s all;
+    -o-transition: 0.2s all;
+}
+
+.btnsContainer button i{
+    font-size: 16px;
+    color: #fff;
+}
+
+.btnsContainer span{
+    font-size: 18px;
+    margin: 0px 8px;
+}
